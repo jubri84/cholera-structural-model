@@ -8,8 +8,8 @@ The scripts generate model-based numerical illustrations only. No individual-lev
 
 ## Contents
 
-- `simulations_paper1.R`: generates baseline simulations, threshold comparisons, sensitivity results, equilibrium branch calculations, numerical checks, and publication figures.
-- `structural_checks_paper1.R`: generates structural model comparisons, identifiability transformation checks, hierarchy comparisons, and endemic eigenvalue calculations.
+- `simulations.R`: generates baseline simulations, threshold comparisons, sensitivity results, equilibrium branch calculations, numerical checks, and publication figures.
+- `structural_checks.R`: generates structural model comparisons, identifiability transformation checks, hierarchy comparisons, and endemic eigenvalue calculations.
 
 ## Requirements
 
@@ -25,12 +25,12 @@ install.packages("deSolve")
 ## How to run
 From the repository directory, run:
 ```r
-Rscript simulations_paper1.R
-Rscript structural_checks_paper1.R
+Rscript simulations.R
+Rscript structural_checks.R
 ```
 Alternatively, running:
 ```r
-Rscript structural_checks_paper1.R
+Rscript structural_checks.R
 ```
 ## Outputs
 The scripts create the following folders:
