@@ -1,6 +1,6 @@
 # Run from Structural Roles of Asymptomatic Infection and a Downstream Bacterial State in a Cholera Model: Rscript structural_checks_paper1.R
 # Exact structural comparisons for the local model; no surveillance fitting.
-source("simulations_paper1.R")
+source("simulations.R")
 upstream <- c("S","IA","IS","R","Bv")
 metric <- function(a,b) max(abs(as.matrix(a)-as.matrix(b))/(1+abs(as.matrix(b))))
 integrate <- function(initial,fun,parameters) {
