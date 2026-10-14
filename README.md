@@ -32,12 +32,12 @@ Alternatively, running:
 ```r
 Rscript structural_checks_paper1.R
 ```
-# Outputs
+## Outputs
 The scripts create the following folders:
 - figures/: publication figures
 - tables/: generated parameter values, trajectories, summaries, equilibrium values and structural comparison tables
 - validation/: numerical validation checks and session information
-## Reproducibility note
+### Reproducibility note
 All parameter values used in the simulations are illustrative and are reported in the manuscript. The numerical experiments are deterministic model experiments and are not fitted to surveillance data.
-## License
+### License
 This repository is released under the MIT License.
